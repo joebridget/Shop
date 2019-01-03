@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Shop:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Shop</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Shop/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Shop" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="F:/jstl/jakarta-taglibs-standard-1.1.2/lib/jstl.jar" />
+          <element id="file-copy" path="F:/jstl/jakarta-taglibs-standard-1.1.2/lib/standard.jar" />
+          <element id="file-copy" path="F:/验证码/patchca-0.5.0.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

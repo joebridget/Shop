@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <style type="text/css">
+      .c1{ text-align:right ;margin-right:50px }
+      .c2{ text-align:right ;margin-right:50px ; color:blue; font-size:150% }
+      body{ background-image:url("../image/2.png");background-repeat:repeat }
+	  
+	  span{ font-size:30px; color:red; font-weight:bolder;margin-left:200px }
+      .f{ width:150px; height:70px}
+	  
+	  
+	  .d{ text-align:center; word-spacing:20px;width:70%}
+      img{ border:none }
+	  
+	  
+	  .b{ background-color:yellow;
+          background-image:url("../image/button12.png") ;
+          width:60px;height:30px; border:none
+         }
+	  
+    </style>
+  </head>
+  <body>&nbsp;  
+    
+  <!-- Title -->
+     <img src="../image/zgc_px.png" align="middle" class="f"/>
+     <span>欢迎访问我的购物网站</span>
+     <hr/>
+	 
+   <div class="c2"> 欢迎Luxw </div>
+   
+  <!--  Menu Bar  -->
+   <center>
+   <div class="d">
+     <a href="QueryProductView.html"><img src="../image/index.png"/></a>
+     <a href="UserManageView.html"><img src="../image/reg.png"/></a>
+     <a href="ShopCarView.html"><img src="../image/Cart.gif"/></a>
+     <a href=""><img src="../image/order.png"/></a>
+     <a href="LoginView.html"><img src="../image/exit.png"/></a>
+   </div> 
+  </center>
+  
+   <!--  按条件搜索表单 -->
+   <center>
+  <form action="" method="post">
+   ProductName:<input type="text" name="productName"/>&nbsp;
+   Price:<select name="opt">
+                 <option value="1">小于</option>
+                <option value="2">大于</option>
+         </select>
+         <input type="text" name="price" size="6" /> &nbsp;&nbsp;
+    <input type="submit"   value="" class="b"/>
+  </form>
+  </center>
+   
+   <table border="1" bordercolor="blue" cellspacing=0 align="center" width="70%">
+     <tr align="center" bgcolor="lightblue">
+       <td><b>Id</b></td>
+        <td><b>Name</b></td>
+		<td><b>图片</b></td>
+         <td><b>Price</b></td>
+        <td><b><img src="../image/car_new.png"/></b></td>
+     </tr>
+        <tr align="center">
+          <td>1</td>
+          <td>Java编程思想</td>
+		  <td><img src="../image/product/cover.png"/></td>
+          <td>100</td>     
+          <td align="center"><a href="AddCarSuccess.html"><img src="../image/car_new.png"/></a></td>
+        </tr>
+		
+		<tr align="center">
+          <td>2</td>
+          <td>精通Hibernate</td>
+		  <td><img src="../image/product/zcover2.png"/></td>
+          <td>80</td>     
+          <td align="center"><a href="AddCarSuccess.html"><img src="../image/car_new.png"/></a></td>
+        </tr>
+   
+   </table>
+   <p>&nbsp;</p>
+   
+   <!-- 分页 --> 
+   <center>
+     <a href="">上一页</a>
+    &nbsp;
+    这是第 <font color="red">2</font> 页
+    &nbsp;
+   
+    <a href="">下一页</a>
+    &nbsp;
+    
+</center>
+   
+  </body>
+</html>
